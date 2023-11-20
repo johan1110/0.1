@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card__wraper{
+    max-width: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card__wraper .card{
+    width: 30%;
+    box-shadow: 0 0 8px gray;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.card__wraper .card h3{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card__wraper .card p{
+    font-family: cursive;
+}
+
+.card__wraper .card img{
+    width: 100%;
+}

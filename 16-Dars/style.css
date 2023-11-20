@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 15px;
+    gap: 1rem;
+}
+
+form input, form button{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 18px;
+}
+
+form button{
+    width: 200%;
+    background-color: lightslategray;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
